@@ -15,8 +15,5 @@ try:
     socket.setdefaulttimeout(10)
     so.connect(IP, PORT)
 
-    so.close()
-
-
-if __main__ = "__main__":
-    printf("main")
+finally:
+    exit(0)
